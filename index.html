@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clahan Foods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Clahan Foods</h1>
+        <p>Your favorite place for delicious, healthy meals.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Clahan Foods is dedicated to providing fresh, high-quality meals crafted with love and care. We source our ingredients locally and prepare each dish to perfection, ensuring that our customers enjoy every bite.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Dine-in</li>
+            <li>Takeaway</li>
+            <li>Home Delivery</li>
+            <li>Catering Services</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@clahanfoods.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 123 Foodie Lane, Gourmet City, USA</p>
+    </section>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <form id="orderForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="orderDetails">Order Details:</label>
+            <textarea id="orderDetails" name="orderDetails" required></textarea>
+            <br>
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clahan Foods. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
